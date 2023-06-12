@@ -7,27 +7,27 @@ from colorama import Fore
 def cls():
     os.system('cls' if os.name=='nt' else 'clear')
 
-with open("Colors.txt", "r") as file:
+with open("Traits/Colors.txt", "r") as file:
     allText = file.read()
     Colors = list(map(str, allText.split()))
 #gets list of colors from text file.
-with open("Skin-color.txt", "r") as file:
+with open("Traits/Skin-color.txt", "r") as file:
     allText = file.read()
     Skin = list(map(str, allText.split()))
 #gets list of skin colors
-with open("Hair.txt", "r") as file:
+with open("Traits/Hair.txt", "r") as file:
     allText = file.read()
     Hair = list(map(str, allText.split()))
 #gets list of hair styles
-with open("Aesthetics.txt", "r") as file:
+with open("Traits/Aesthetics.txt", "r") as file:
     allText = file.read()
     Aesthetics = list(map(str, allText.split()))
 #gets list of aesthic types
-with open("Themes.txt", "r") as file:
+with open("Traits/Themes.txt", "r") as file:
     allText = file.read()
     Themes = list(map(str, allText.split()))
 #gets list of themes
-gen = ["Female",]
+gen = ["Female", "Male"]
 attire = ["Casual","Formal"]
 Height = ["Short", "Average", "Tall"]
 Hheight = ["Short", "Average", "Long"]
