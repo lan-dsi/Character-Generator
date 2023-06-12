@@ -31,7 +31,7 @@ gen = ["Female", "Male"]
 attire = ["Casual","Formal"]
 Height = ["Short", "Average", "Tall"]
 Hheight = ["Short", "Average", "Long"]
-#defines certain traits
+#defines certain traits for the character
 
 
 
